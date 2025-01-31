@@ -12,7 +12,7 @@
 
     <div class="form-page">
         <div class="heading-container">
-            <img src="/miniproject1/assets/logo.png" alt="ShePlays Logo" class="logo">
+            <img src="/miniproject1/assets/revised-2.png" alt="ShePlays Logo" class="logo">
             <p class="form-subtext">For the love of the game. Connect with players worldwide. </p>
         </div>
 
@@ -26,6 +26,14 @@
                     <input type="password" id="password" placeholder="Password" required>
                     <input type="text" id="fullname" placeholder="Full Name" required>
                     <input type="username" id="username" placeholder="Username" required>
+
+                    <!-- Dropdown for role selection -->
+                    <select id="role" required>
+                        <option value="" disabled selected>Select Role</option>
+                        <option value="player">Player</option>
+                        <option value="coach">Coach</option>
+                        <option value="fan">Fan</option>
+                    </select>
 
                     <button type="submit" class="signup-button">Sign Up</button>
 

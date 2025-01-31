@@ -39,13 +39,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 15px; /* Space between heading and form */
+  margin-bottom: 25px; /* Space between heading and form */
 }
 
 /* Logo image styling */
 .heading-container .logo {
-    width: 240px; /* Adjust logo size */
+    width: 180px; /* Adjust logo size */
     height: auto;
+    margin-bottom: 20px;
     
   }
 
@@ -87,6 +88,22 @@ body {
   color: white;
   font-size: 16px;
   cursor: pointer;
+}
+
+/* Style for the select dropdown */
+.login-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for select box */
+  border-radius: 5px;
+  background-color: #333; /* Dark background for select box */
+  color: white; /* White text for the dropdown */
+}
+
+.login-form select:focus {
+  outline: none;
+  border-color: #0095f6; /* Highlight border color on focus */
 }
 
 .login-form button:hover {
