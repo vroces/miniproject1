@@ -175,7 +175,7 @@ body {
 /* Stretched Text Effect */
 .stretched-text {
     font-family: Arial, sans-serif; /* Or any font you prefer */
-    font-size: 20px; /* Adjust the size as needed */
+    font-size: 30px; /* Adjust the size as needed */
     letter-spacing: 1px; /* Increase the value for more stretch */
 }
 

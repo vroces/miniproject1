@@ -7,7 +7,11 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(223, 183, 52);
+  background: url('/miniproject1/assets/signupbackground.png') no-repeat center center fixed;
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Full height of the viewport */
 }
 
 
