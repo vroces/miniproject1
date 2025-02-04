@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #fafafa;
+
 }
 
 .container {
@@ -21,19 +21,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(223, 183, 52);
+  background-color: rgb(0, 0, 0);
   position: relative; /* absolute position of text */
   overflow: hidden; /* hide text outside container */
+  
 }
 
 
 
 .sliding-text {
   position: absolute; /* Position the text over the logo container */
-  bottom: 100px; /* Position the text at the bottom */
+  bottom: 150px; /* Position the text at the bottom */
   white-space: nowrap; /* Prevent text from wrapping */
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   animation: slideLeft 8s linear infinite; /* Animation */
 }
 
@@ -51,6 +52,7 @@ body {
   height: 350px; /* Ensure equal width and height for a perfect circle */
   border-radius: 50%;
   object-fit: cover;
+  box-shadow: 0 0 40px rgb(223, 183, 52); /* Permanent glowing effect */
 }
 .form-heading {
   font-size: 24px;
